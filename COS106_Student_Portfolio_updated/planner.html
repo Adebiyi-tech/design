@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Planner | Kehinde Adebiyi</title><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header"><nav class="navbar container">
+<a class="logo" href="index.html">KA<span>.</span></a><button class="menu-toggle" aria-label="Open navigation">☰</button>
+<ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About Me</a></li><li><a href="projects.html">Projects</a></li><li><a class="active" href="planner.html">Academic Planner</a></li><li><a href="contact.html">Contact</a></li></ul>
+</nav></header>
+
+<main class="section container">
+<div class="section-heading"><p class="eyebrow">JavaScript Project</p><h1>Academic Planner</h1><p class="lead">Add your academic tasks, mark them completed and delete tasks when finished.</p></div>
+<section class="planner card">
+  <form id="taskForm" class="task-form">
+    <label for="taskInput">New task</label>
+    <div class="input-row"><input id="taskInput" type="text" placeholder="e.g. Study CSS Grid" required><button class="btn" type="submit">Add Task</button></div>
+  </form>
+  <p id="taskMessage" class="form-message" aria-live="polite"></p>
+  <ul id="taskList" class="task-list"></ul>
+</section>
+</main>
+<footer class="footer"><p>&copy; 2026 Kehinde Adebiyi. COS 106 Academic Project.</p></footer>
+<script src="js/script.js"></script>
+<script src="js/planner.js"></script>
+</body>
+</html>
